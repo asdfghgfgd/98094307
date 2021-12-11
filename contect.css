@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.icons a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.icons ion-icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: 3px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
